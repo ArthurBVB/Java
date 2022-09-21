@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="285.0" prefWidth="392.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="71.0" fitWidth="179.0" layoutX="8.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../../Imagens/gimp/faitec/faetec-200.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="40.0" layoutY="83.0" text="data e hora" textFill="#b91b9e">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label id="lblHora" layoutX="40.0" layoutY="133.0" prefHeight="38.0" prefWidth="221.0" text="clique no botao" textFill="#b51515">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button id="btnHora" layoutX="216.0" layoutY="114.0" mnemonicParsing="false" onAction="#clicouBotao" text="clique aqui" />
+   </children>
+</AnchorPane>
