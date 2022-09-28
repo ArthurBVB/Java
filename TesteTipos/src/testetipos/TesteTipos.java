@@ -21,6 +21,12 @@ public class TesteTipos {
         String valor = "30.5";
         float idade = Float.parseFloat(valor);
         System.out.printf("%.3f",idade);
+         /*String p1 = "Curso";
+         String p2 = "Video";
+         String p3 = p1 + p2;
+         String p4 = "CursoVideo";
+         System.out.println(p3 == p4);
+         System.out.println(p3.equals(p4));*/
     }
     
 }
